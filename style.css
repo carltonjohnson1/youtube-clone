@@ -22,13 +22,19 @@
 
 .navbar .nav-section {
     gap: 1rem;
-
 }
-
-
 
 .navbar :where(.logo-image, .user-image) {
     width: 32px;
     cursor: pointer;
     border-radius: 50%;
 }
+
+.navbar .nav-logo{
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+
+
